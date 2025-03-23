@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="search_bar">
+<input type="text" class="search"placeholder="Search place"  >
+<div id="logo"><i class="fa-sharp-duotone fa-solid fa-magnifying-glass"></i></div>
+</div>
+
+<div class="place_date">
+<span id="place"style="font-weight:600;">
+<i class="fa-solid fa-earth-americas fa-1x" style="color: #74C0FC;"></i>
+<span id="city" style="margin-left: 2px;"></span>
+<span id="country"></span>
+</span>
+<span id="date" style="font-weight:490;"></span>
+
+</div>
+
+<div class="icon_temp">
+<div class="icon"></div>
+<div class="temp">
+<span id="temperature" style="font-weight:900; font-size:400%" ></span>
+<span id="mausam" style="font-weight: 700; font-size:250%; margin-top: 4px;"></span>
+</div>
+</div>
+
+
+<div class="humidity_windspeed">
+<div class="humidity">
+<i class="fa-solid fa-droplet fa-6x" style="color: #74C0FC;"></i>
+<div class="humidity_content" style="margin-left: 8px;">
+<p>Humidity</p>
+<p class="humidity_data"></p>
+</div>
+</div>
+<div class="windspeed">
+<i class="fa-solid fa-wind fa-6x" style="color: #74C0FC;"></i>
+<div class="wind_content" style="margin-left: 8px;">
+<p>Wind Speed</p>
+<p class="wind_data"></p>
+</div>
+
+</div>
+
+</div>
+
+<div id="trip">Weather Forcast</div>
+
+<div class="forcast">
+
+<div class="first">
+<p id="day1" style="font-size: xx-large; font-weight: bolder;">Thu</p>
+<div class="cloud1 cloud"></div>
+<p id="max_temp1" style="font-size:xx-large; font-weight: bolder;">36</p>
+<p id="min_temp1" style="font-size:x-large; font-weight: 900;">25</p>
+</div>
+
+<div class="border"></div>
+
+<div class="first">
+<p id="day2" style="font-size: xx-large; font-weight: bolder;">Thu</p>
+<div class="cloud2 cloud"></div>
+<p id="max_temp2" style="font-size:xx-large; font-weight: bolder;">36</p>
+<p id="min_temp2" style="font-size:x-large; font-weight: 900;">25</p>
+</div>
+
+<div class="border"></div>
+
+<div class="first">
+<p id="day3" style="font-size: xx-large; font-weight: bolder;">Thu</p>
+<div class="cloud3 cloud"></div>
+<p id="max_temp3" style="font-size:xx-large; font-weight: bolder;">36</p>
+<p id="min_temp3" style="font-size:x-large; font-weight: 900;">25</p>
+</div>
+
+<div class="border"></div>
+
+<div class="first" style="border: none;">
+<p id="day4" style="font-size: xx-large; font-weight: bolder;">Thu</p>
+<div class="cloud4 cloud"></div>
+<p id="max_temp4" style="font-size:xx-large; font-weight: bolder;">36</p>
+<p id="min_temp4" style="font-size:x-large; font-weight: 900;">25</p>
+</div>
+
+</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

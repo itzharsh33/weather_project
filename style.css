@@ -1,0 +1,170 @@
+/* https://mrwallpaper.com/images/thumbnail/blue-shades-gradient-9s4z3y8cgsbvp6dv.jpg */
+*{
+margin: 0%;
+padding: 0%;
+}
+body{
+/* background-image: url("https://st3.depositphotos.com/12370900/37231/i/450/depositphotos_372317410-stock-photo-beautiful-view-blue-sky-moon.jpg"); */
+background-image: url("https://wallpapers.com/images/hd/plain-light-blue-background-hi4iwqnh1sa9xfz9.jpg");
+background-size:cover;
+}
+
+.search_bar{
+display: flex;
+align-items: center;
+position: relative;
+}
+.search{
+margin-left: 30%;
+margin-top: 12px;
+height: 40px;
+width: 40%;
+background-color: rgb(77, 77, 164);
+font-weight:300;
+font-size: large;
+border: none;
+border-radius: 23px;
+color: white;
+padding-left: 12px;
+}
+.search::placeholder{
+color: white;
+padding-left: 12px;
+/* font-weight: 150; */
+}
+#logo{
+margin-top: 12px;
+height: 40px;
+width: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+background-color: rgb(151, 139, 228);
+border-radius: 20px;
+color: aliceblue;
+}
+.place_date{
+color: white;
+margin-top: 60px;
+height: 60px;
+font-size:3rem;
+/* background-color: rgb(160, 64, 207); */
+display: flex;
+justify-content: space-around;
+}
+
+.icon_temp{
+margin-top: 25px;
+display: flex;
+justify-content: space-around;
+}
+
+.icon{
+height: 200px;
+width: 400px;
+/* background-color: brown; */
+background-size: contain; 
+background-position: center;
+ background-repeat: no-repeat;
+}
+
+.temp{
+height: 200px;
+width: 400px;
+color: white;
+/* background-color: brown; */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.humidity_windspeed{
+margin-top: 55px;
+display: flex;
+justify-content: space-around;
+}
+
+.humidity{
+height: 200px;
+width: 400px;
+/* background-color: brown; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.humidity_content{
+font-size:3rem;
+font-weight: 900;
+color: white;
+}
+.windspeed{
+height: 200px;
+width: 400px;
+/* background-color: brown; */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.wind_content{
+font-size:3rem;
+font-weight: 900;
+color: white;
+}
+
+
+#trip{
+background-color:#914ec1;
+height: 55px;
+width: 400px;
+font-size:3rem;
+font-weight: 800;
+color: white;
+text-align: center;
+margin-bottom: 35px;
+margin-top: 30px;
+align-self: center;
+margin-left: 35%;
+/* text-decoration: underline; */
+}
+
+.border{
+height: 265px;
+width:5px;
+background-color: white;
+}
+
+.forcast{
+height: 300px;
+/* background-color: rgb(57, 64, 150); */
+/* background-image: url("https://wallpapers.com/images/hd/plain-light-blue-background-hi4iwqnh1sa9xfz9.jpg"); */
+background-size: contain;
+color: white;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.first{
+height: 300px;
+width: 250px;
+/* background-color: rgb(92, 29, 170); */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* border-radius: 15px; */
+/* background-image: url("https://wallpapers.com/images/hd/plain-light-blue-background-hi4iwqnh1sa9xfz9.jpg"); */
+
+}
+
+.cloud{
+height:120px;
+width: 120px;
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+
